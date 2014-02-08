@@ -7,35 +7,36 @@
 }
 
 body {
+	margin-top:25px;
 	background-color:#284c7e;
 }
 
-h1#title {
+#title {
 	color:#fff;
 }
 
-div#logoBox {
+#logoBox {
 	width: 400px;
 	margin:0 auto;
 }
 
-ul#navBar {
+#navBar {
 	padding:0 10px;
 	list-style-type: none;
 }
 
-ul#navBar li {
-	-webkit-transition:text-shadow 0.5s ease-in-out;
-    -moz-transition:text-shadow 0.5s ease-in-out;
-    -o-transition:text-shadow 0.5s ease-in-out;
-    -ms-transition:text-shadow 0.5s ease-in-out;
-    transition:text-shadow 0.5s ease-in-out;
+#navBar li {
+	-webkit-transition:text-shadow 1s ease-in-out;
+    -moz-transition:text-shadow 1s ease-in-out;
+    -o-transition:text-shadow 1s ease-in-out;
+    -ms-transition:text-shadow 1s ease-in-out;
+    transition:text-shadow 1s ease-in-out;
 
-/*	-webkit-transition:color 0.5s ease-in-out;
-    -moz-transition:color 0.5s ease-in-out;
-    -o-transition:color 0.5s ease-in-out;
-    -ms-transition:color 0.5s ease-in-out;
-    transition:color 0.5s ease-in-out;*/
+	-webkit-transition:color 1s ease-in-out;
+    -moz-transition:color 1s ease-in-out;
+    -o-transition:color 1s ease-in-out;
+    -ms-transition:color 1s ease-in-out;
+    transition:color 1s ease-in-out;
 
 
     text-shadow:0px 0px 0px #fff;
@@ -54,4 +55,12 @@ ul#navBar li {
 .blur {
 	color:transparent !important;
 	text-shadow: 0px 0px 5px #fff !important;
+}
+
+#contentContainer {
+	width:400px;
+	height:300px;
+	margin:0 auto;
+	border: 1px solid #000;
+	background:#eee;
 }
