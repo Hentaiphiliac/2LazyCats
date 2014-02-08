@@ -25,6 +25,21 @@ ul#navBar {
 }
 
 ul#navBar li {
+	-webkit-transition:text-shadow 0.5s ease-in-out;
+    -moz-transition:text-shadow 0.5s ease-in-out;
+    -o-transition:text-shadow 0.5s ease-in-out;
+    -ms-transition:text-shadow 0.5s ease-in-out;
+    transition:text-shadow 0.5s ease-in-out;
+
+/*	-webkit-transition:color 0.5s ease-in-out;
+    -moz-transition:color 0.5s ease-in-out;
+    -o-transition:color 0.5s ease-in-out;
+    -ms-transition:color 0.5s ease-in-out;
+    transition:color 0.5s ease-in-out;*/
+
+
+    text-shadow:0px 0px 0px #fff;
+
 	font-family: DenseRegular;
 	font-size:22px;
 	cursor: pointer;
@@ -34,4 +49,9 @@ ul#navBar li {
 
 .stretch {
 	width:100%;
+}
+
+.blur {
+	color:transparent !important;
+	text-shadow: 0px 0px 5px #fff !important;
 }

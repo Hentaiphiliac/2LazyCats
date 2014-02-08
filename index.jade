@@ -1,12 +1,26 @@
 doctype html
 html
 	head
-		script(src="js/minified.js",type="text/javascript")
+		script(src="js/jquery.min.js",type="text/javascript")
+		script(src="js/blur.min.js",type="text/javascript")
 		script(src="js/HTML.min.js",type="text/javascript")
 		script(src="js/bootstrap.min.js",type="text/javascript")
 		link(href="css/bootstrap.min.css",rel="stylesheet",type="text/css")
 		link(href="css/style.css",rel="stylesheet",type="text/css")
+
+		title 2 Lazy Cats | Home
 	body
+		script(type="text/javascript").
+			$(function(){
+				$("#navBar li").hover(
+					function(){
+						$(this).siblings().toggleClass('blur');
+					},
+					function(){
+						$(this).siblings().removeClass('blur');
+					}
+				);
+			});
 		div.container
 			div.row
 				div.col-md-12
@@ -19,4 +33,4 @@ html
 								li.text-center PROJECTS
 								li.text-center RESUMES
 								li.text-center CONTACT
-								li.stretch 
+								li.stretch
