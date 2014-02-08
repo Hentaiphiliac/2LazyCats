@@ -12,11 +12,13 @@ div#logoBox {
 }
 
 ul#navBar {
-	padding-left:0;
+	padding:0 10px;
 	list-style-type: none;
 }
 
 ul#navBar li {
+	cursor: pointer;
+	color:#fff;
 	display:inline-block;
 }
 
