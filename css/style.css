@@ -1,3 +1,11 @@
+@font-face {
+	font-family: DenseRegular;
+	src: url('fonts/dense-regular-webfont.ttf'),
+		 url('fonts/dense-regular-webfont.eot'),
+		 url('fonts/dense-regular-webfont.woff'),
+		 url('fonts/dense-regular-webfont.svg');
+}
+
 body {
 	background-color:#284c7e;
 }
@@ -17,6 +25,8 @@ ul#navBar {
 }
 
 ul#navBar li {
+	font-family: DenseRegular;
+	font-size:22px;
 	cursor: pointer;
 	color:#fff;
 	display:inline-block;
