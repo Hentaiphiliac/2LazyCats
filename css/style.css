@@ -5,3 +5,15 @@ body {
 h1#title {
 	color:#fff;
 }
+
+div#logoBox {
+	width: 400px;
+}
+
+ul#navBar {
+	list-style-type: none;
+}
+
+ul#navBar li {
+	display:inline-block;
+}
